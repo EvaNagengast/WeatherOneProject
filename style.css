@@ -1,0 +1,155 @@
+/* body */
+body {
+  background-image: url("");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -10;
+}
+
+.weatherApp {
+  margin: 40px auto;
+  border: 8px double #fdd000;
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: #fdcf0094;
+}
+.stagedive {
+  position: absolute;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(40%);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* left column*/
+/* festival search */
+.citySearch {
+  text-align: center;
+}
+
+.citySearchInput {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  color: rgb(255, 179, 0);
+  font-weight: 600;
+  background-color: black;
+  margin: 10px auto;
+  border: 3px solid;
+  border-radius: 2px;
+}
+
+.citySearchInput::placeholder {
+  color: #6d5900;
+}
+
+.goButton {
+  padding: 4px 10px;
+  color: #6d5900;
+  background-color: black;
+  font-family: "DM Serif Display", serif;
+  border-radius: 2px;
+  border: none;
+}
+
+.currentButton {
+  padding: 4px 10px;
+  color: #6d5900;
+  background-color: black;
+  font-family: "DM Serif Display", serif;
+  border-radius: 2px;
+  border: none;
+}
+
+.formbox {
+  display: inline-block;
+}
+/* today */
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 70px;
+  color: #fdd000;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.todayIcon {
+  font-size: 50px;
+  color: #fdd000;
+  text-align: center;
+ margin: 10px 0 0 0;}
+.todayWeatherDescription {
+  margin: 0 0 20px 0;
+  font-size: 17px;
+}
+ul.today {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 36px;
+  padding: 0;
+}
+
+.todayTemperature {
+  padding: auto;
+  font-size: 60px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.todayUnit {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 9px;
+  margin-top: 6px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+
+.celsius:hover {
+  cursor: pointer;
+  color: #ffe46a;
+}
+.fahrenheit:hover {
+  cursor: pointer;
+  color: #ffe46a;
+}
+
+/* todayInfo */
+.todayInfoBox {
+  border: 2px solid #1d1800;
+  margin: 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.todayInfoList {
+  margin: 0;
+}
+.todayFeels,
+.todayWind,
+.todayHumid {
+  padding: 4px 0 4px 0;
+  margin-bottom: 0;
+}
+.todayTip {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* right column*/
+
+.forecast {
+  line-height: 35px;
+  padding-left: 20px;
+}
