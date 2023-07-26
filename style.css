@@ -85,7 +85,8 @@ h1 {
   font-size: 50px;
   color: #fdd000;
   text-align: center;
- margin: 10px 0 0 0;}
+  margin: 10px 0 0 0;
+}
 .todayWeatherDescription {
   margin: 0 0 20px 0;
   font-size: 17px;
@@ -152,4 +153,15 @@ ul.today {
 .forecast {
   line-height: 35px;
   padding-left: 20px;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  color: #b19411;
+  font-family: "Red Hat Display", sans-serif;
+}
+.footerlinks {
+  color: #e1bc18;
+  text-decoration: none;
 }
